@@ -5,7 +5,7 @@ from arithmetic_functions import ArithmeticFunctions
 class TestSumInts(unittest.TestCase): 
     def test_get_correct_positive_sum(self):
         af = ArithmeticFunctions(2,3)
-        self.assertEqual(af.multiply_ints(), 5)
+        self.assertEqual(af.multiply_ints(), 6)
 
     def test_get_correct_negative_sum(self):
         af = ArithmeticFunctions(-2,3)
