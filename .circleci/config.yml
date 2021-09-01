@@ -21,7 +21,8 @@ jobs:
           command: |
             . venv/bin/activate
             # python3 -m unittest
-            pylint $(ls *.py)
+            # pylint $(ls *.py)
+            pylint code/arithmetic_functions.py
             coverage run -m pytest
 
       - store_artifacts:
