@@ -21,7 +21,6 @@ jobs:
           command: |
             . venv/bin/activate
             # python3 -m unittest
-            # pylint $(ls *.py)
             pylint code/*.py
             coverage run -m pytest
 
