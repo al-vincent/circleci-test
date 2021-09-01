@@ -20,7 +20,10 @@ jobs:
           name: Running tests
           command: |
             . venv/bin/activate
-            python3 -m unittest
+            # python3 -m unittest
+            pylint $(ls *.py)
+            coverage run -m pytest
+
       - store_artifacts:
           path: test-reports/
           destination: python_app
