@@ -1,9 +1,9 @@
-# """Simple class used for exploring / understanding CI piplines"""
+"""Simple class used for exploring / understanding CI piplines"""
 
 class ArithmeticFunctions:
-    # """Demonstrator class whose methods perform some simple arithmetic functions.
-    # Minimal code with no error checking or handling.
-    # """
+    """Demonstrator class whose methods perform some simple arithmetic functions.
+    Minimal code with no error checking or handling.
+    """
 
     def __init__(self, first_num, second_num):
         """Constructor for the class. Encapsulates the values to be operated on.
